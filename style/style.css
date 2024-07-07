@@ -10,6 +10,10 @@
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    
 }
 .nav-title{
     font-weight: 800;
@@ -17,4 +21,26 @@ nav{
 }
 .highlight{
     color: #FD6E0A;
+}
+  nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav a{
+    text-decoration: none;
+}
+.dark-2{
+    color: #474747;
+} 
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px ;
 }
